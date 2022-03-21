@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    height: 180px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 30px;
+   
+}
+.containerA{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-column-gap: 15px; 
+    
+}
+
+.home{
+    background-color: brown;
+    text-align: center;
+}
+
+.about{
+    background-color: blue;
+}
+
+.products{
+    background-color: goldenrod;
+}
+
+.containerB{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 15px;
+}
+
+.content{
+    background-color: rgb(18, 114, 114);
+}
+
+.form{
+    background-color: forestgreen;
+}
+.containerC{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 1px;
+}
+.blank{
+    background-color: aliceblue;
+}
+.containerD{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-column-gap: 15px;
+}
+.f1{
+    background-color: red;
+}
+.f2{
+    background-color: chocolate;
+}
+.f3{
+    background-color:  cyan;
+}
+.f4{
+    background-color: aquamarine;
+}
+.f5{
+    background-color: rgb(80, 105, 105);
+}
+.f6{
+    background-color:burlywood ;
+}
+@media screen and(max-width:1008px){
+    
+}
