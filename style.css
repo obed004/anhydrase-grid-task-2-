@@ -1,43 +1,68 @@
 *{
     box-sizing: border-box;
-    height: 180px;
     width: 100%;
-    background-color: black;
     margin-bottom: 30px;
-   
 }
-.containerA{
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-column-gap: 15px; 
-    
+body{
+    background-image: url(https://media.istockphoto.com/photos/top-view-of-worker-standing-by-apple-fruit-crates-in-organic-food-picture-id1317777715?b=1&k=20&m=1317777715&s=170667a&w=0&h=3tVmKtDh1nW0FRI2nPBbeP2DXPECp8kNsTPWoIJmv4Y=);
+    background-size: 100%;
+    background-position: center;
 }
 
-.home{
-    background-color: brown;
+.containerA{
+    display: grid;
+    grid-template-columns: 32.5% 33% 33%;
+    grid-column-gap: 15px; 
+    height: 100px;
     text-align: center;
 }
 
-.about{
-    background-color: blue;
+.home{
+    background-color: rgb(90, 52, 52);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    border: 10px transparent ;
+    border-radius: 20px;
+  
+    
 }
 
 .products{
-    background-color: goldenrod;
+    background-color: rgb(71, 65, 56);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 10px transparent ;
+    border-radius: 20px;
+}
+
+.sign-up{
+    background-color: rgb(88, 71, 55);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    border: 10px transparent ;
+    border-radius: 20px;
 }
 
 .containerB{
     display: grid;
-    grid-template-columns: 70% 30%;
-    grid-column-gap: 15px;
+    grid-template-columns: 69% 30%;
+    grid-column-gap: 18px;
 }
 
 .content{
-    background-color: rgb(18, 114, 114);
+    background-color: rgb(96, 104, 104);
+    border: 10px transparent ;
+    border-radius: 20px;
 }
 
 .form{
-    background-color: forestgreen;
+    background-color: rgb(112, 136, 112);
+    padding: 20px;
+    border: 10px transparent ;
+    border-radius: 20px;
 }
 .containerC{
     display: grid;
@@ -46,30 +71,70 @@
 }
 .blank{
     background-color: aliceblue;
+    border: 10px transparent ;
+    border-radius: 20px;
 }
 .containerD{
     display: grid;
     grid-template-columns: 16% 16% 16% 16% 16% 16%;
     grid-column-gap: 15px;
+    text-align: center;
 }
 .f1{
-    background-color: red;
+    background-color: rgb(83, 74, 74);
+    height: 100px;
+    color: aliceblue;
+    padding: 10px;
+    border: 10px transparent ;
+    border-radius: 20px;
 }
 .f2{
-    background-color: chocolate;
+    background-color: rgb(56, 51, 47);
+    height: 100px;
+    color: aliceblue;
+    padding: 10px;
+    border: 10px transparent ;
+    border-radius: 20px;
 }
 .f3{
-    background-color:  cyan;
+    background-color:  rgb(40, 48, 48);
+    height: 100px;
+    color: aliceblue;
+    padding: 10px;
+    border: 10px transparent ;
+    border-radius: 20px;
 }
 .f4{
-    background-color: aquamarine;
+    background-color: rgb(59, 68, 65);
+    height: 100px;
+    color: aliceblue;
+    padding: 10px;
+    border: 10px transparent ;
+    border-radius: 20px;
 }
 .f5{
     background-color: rgb(80, 105, 105);
+    height: 100px;
+    color: aliceblue;
+    padding: 10px;
+    border: 10px transparent ;
+    border-radius: 20px;
 }
 .f6{
-    background-color:burlywood ;
+    background-color:rgb(56, 53, 49) ;
+    height: 100px;
+    color: aliceblue;
+    padding: 10px;
+    border: 10px transparent ;
+    border-radius: 20px;
 }
-@media screen and(max-width:1008px){
-    
+@media screen and(max-width:600px){
+    body{
+        background-color: dimgray;
+    }
+}
+@media screen and(max-width:600px){
+    div{
+        display: inline-block;
+    }
 }
